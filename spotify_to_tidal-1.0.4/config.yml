@@ -1,0 +1,25 @@
+spotify:
+  client_id: 4d4796d4dd17406dbcb1d3f70f88b6e1
+  client_secret: 402c4ffb40d7486598a509f1bb59dc69
+  username: your_spotify_username
+  redirect_uri: https://cerlux.vercel.app/callback
+  open_browser: True # Set to False if using a headless server environment
+
+
+# uncomment this block if you want to only sync specific playlist IDs
+#sync_playlists:
+#  - spotify_id: 1ABCDEqsABCD6EaABCDa0a
+#    tidal_id: a0b1234-0a1b-012a-abcd-a1b234c5d6d7
+
+# uncomment this block if you want to sync all playlists in the account with some exceptions
+#excluded_playlists:
+#  - spotify:playlist:1ABCDEqsABCD6EaABCDa0a
+
+# default setting for syncing favorites when no command line arguments are provided
+#   - when true:  favorites will be synced by default (overriden when any command line arg provided)
+#   - when false: favorites can only be synced manually via --sync-favorites argument
+sync_favorites_default: true
+
+# increasing these parameters should increase the search speed, while decreasing reduces likelihood of 429 errors
+max_concurrency: 10 # max concurrent connections at any given time
+rate_limit:      10 # max sustained connections per second

@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: spotify_to_tidal
+Version: 1.0.4
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: spotipy~=2.24.0
+Requires-Dist: tidalapi==0.7.6
+Requires-Dist: pyyaml~=6.0
+Requires-Dist: tqdm~=4.64
+Requires-Dist: sqlalchemy~=2.0
+Requires-Dist: pytest~=8.0
+Requires-Dist: pytest-mock~=3.8
+Dynamic: license-file

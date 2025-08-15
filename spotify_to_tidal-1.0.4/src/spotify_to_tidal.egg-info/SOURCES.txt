@@ -1,0 +1,16 @@
+LICENSE
+pyproject.toml
+src/spotify_to_tidal/__main__.py
+src/spotify_to_tidal/auth.py
+src/spotify_to_tidal/cache.py
+src/spotify_to_tidal/sync.py
+src/spotify_to_tidal/tidalapi_patch.py
+src/spotify_to_tidal.egg-info/PKG-INFO
+src/spotify_to_tidal.egg-info/SOURCES.txt
+src/spotify_to_tidal.egg-info/dependency_links.txt
+src/spotify_to_tidal.egg-info/entry_points.txt
+src/spotify_to_tidal.egg-info/requires.txt
+src/spotify_to_tidal.egg-info/top_level.txt
+src/spotify_to_tidal/type/__init__.py
+src/spotify_to_tidal/type/config.py
+src/spotify_to_tidal/type/spotify.py

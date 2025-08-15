@@ -1,0 +1,2 @@
+[console_scripts]
+spotify_to_tidal = spotify_to_tidal.__main__:main
