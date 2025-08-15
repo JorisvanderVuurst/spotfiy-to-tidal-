@@ -133,4 +133,7 @@ max_concurrency: 10
 rate_limit: 10
 sync_favorites_default: true
 ```
+## credits
+this was taken from this repo but edited to a windows version
+credits: 'https://github.com/spotify2tidal/spotify_to_tidal'
 
