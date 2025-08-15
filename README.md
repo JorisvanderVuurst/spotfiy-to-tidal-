@@ -88,7 +88,7 @@ python -m spotify_to_tidal --sync-favorites
 python -m spotify_to_tidal --config custom_config.yml
 ```
 
-## 🔐 Authentication Process
+##  Authentication Process
 
 ### First Run - Spotify Authentication
 1. The tool will open your browser automatically
@@ -107,7 +107,7 @@ python -m spotify_to_tidal --config custom_config.yml
 - No need to re-authenticate unless tokens expire
 - Simply run the tool again for future syncs
 
-## ⚙️ Configuration
+##  Configuration
 
 The `config.yml` file allows you to customize various aspects of the sync process:
 
