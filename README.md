@@ -30,12 +30,12 @@
 
 #### 2. Configuration File
 
-The `config.yml` file has been pre-configured with:
-- **Client ID**: 4d4796d4dd17406dbcb1d3f70f88b6e1
-- **Client Secret**: 402c4ffb40d7486598a509f1bb59dc69
+The `config.yml` file has been pre-configured with only the redirect url:
+- **Client ID**: your_client_id
+- **Client Secret**: your_client_secret
 - **Redirect URI**: https://cerlux.vercel.app/callback
 
-**⚠️ Important**: You need to update the `username` field in `config.yml` with your Spotify username.
+
 
 #### 3. Get Your Spotify Username
 
