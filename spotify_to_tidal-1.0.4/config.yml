@@ -1,5 +1,5 @@
 spotify:
-  client_id: 4d4796d4dd17406dbcb1d3f70f88b6e1
+  client_id: your_client_id
   client_secret: 402c4ffb40d7486598a509f1bb59dc69
   username: your_spotify_username
   redirect_uri: https://cerlux.vercel.app/callback
@@ -23,3 +23,4 @@ sync_favorites_default: true
 # increasing these parameters should increase the search speed, while decreasing reduces likelihood of 429 errors
 max_concurrency: 10 # max concurrent connections at any given time
 rate_limit:      10 # max sustained connections per second
+
