@@ -134,18 +134,3 @@ rate_limit: 10
 sync_favorites_default: true
 ```
 
-
-## 📁 Project Structure
-spotify_to_tidal/
-├── src/spotify_to_tidal/
-│ ├── main.py # CLI entry point
-│ ├── auth.py # Authentication handling
-│ ├── cache.py # Caching functionality
-│ ├── sync.py # Core sync logic
-│ └── type/ # Type definitions
-├── tests/ # Test suite
-├── config.yml # Configuration file
-├── run_sync.bat # Windows batch file
-├── run_sync.ps1 # PowerShell script
-├── get_spotify_username.py # Helper script
-└── pyproject.toml # Project metadata
