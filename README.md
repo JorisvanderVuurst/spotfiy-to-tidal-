@@ -115,7 +115,7 @@ The `config.yml` file allows you to customize various aspects of the sync proces
 spotify:
   client_id: your_client_id
   client_secret: your_client_secret
-  username: YOUR_SPOTIFY_USERNAME  # ⚠️ Update this!
+  username: YOUR_SPOTIFY_USERNAME  
   redirect_uri: https://cerlux.vercel.app/callback
   open_browser: true
 
